@@ -1,6 +1,6 @@
 # [deployable-mixin-instances](https://github.com/deployable/deployable-mixin-instances)
 
-Node Instances Mixin for use with [MixWith]()
+Node Instances Mixin for use with [MixWith](https://github.com/justinfagnani/mixwith.js)
 
 ## Install
  
