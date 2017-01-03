@@ -1,23 +1,38 @@
 # [deployable-mixin-instances](https://github.com/deployable/deployable-mixin-instances)
 
-Node Instance Mixin
+Node Instances Mixin for use with [MixWith]()
 
-### Install
+## Install
  
     npm install deployable-mixin-instances --save
 
     yarn add deployable-mixin-instances
 
-### Usage
+## Usage
 
 ```javascript
 
-const deployable-mixin-instances = require('deployable-mixin-instances')
-deployable-mixin-instances.demo()
+const mix = require('mixwith').mix
+const MixinInstances = require('deployable-mixin-instances')
+class Some extends mix((class {})).with(MixinInstances) {}
+
+let default = Some.singleton
 
 ```
 
-### License
+## API
+
+### `getInstance(name)`
+
+### `newInstance(name)`
+
+### `fetchInstance(name, args)`
+
+### `createInstance(name, args)`
+
+### `clearInstances()`
+
+## License
 
 deployable-mixin-instances is released under the MIT license.
 Copyright 2016 Matt Hoyle <code at deployable.co>
