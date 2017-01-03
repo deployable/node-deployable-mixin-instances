@@ -1,0 +1,32 @@
+{
+  "name": "deployable-mixin-instances",
+  "version": "0.1.0",
+  "description": "Node Instance Mixin",
+  "main": "lib/mixin_instances.js",
+  "scripts": {
+    "test": "mocha",
+    "test:debug": "DEBUG='*' mocha debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deployable/node-deployable-mixin-instances.git"
+  },
+  "keywords": ["deployable","module"],
+  "author": "Matt Hoyle <code at deployable.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deployable/node-deployable-mixin-instances/issues"
+  },
+  "homepage": "https://github.com/deployable/node-deployable-mixin-instances#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.1",
+    "debug": "^2",
+    "mixwith": "~0.1.1"
+  }
+}
+
