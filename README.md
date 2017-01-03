@@ -24,13 +24,24 @@ let default = Some.singleton
 
 ### `getInstance(name)`
 
-### `newInstance(name)`
+Get an exiting instance, can return undefined
+
+### `newInstance(name, args)`
+
+Create a new instance
 
 ### `fetchInstance(name, args)`
 
+Fetch an existing or create a new instance
+
 ### `createInstance(name, args)`
 
+Create an instance, erroring if it already exists
+
 ### `clearInstances()`
+
+Clear all instance stored in the class
+
 
 ## License
 
